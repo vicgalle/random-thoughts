@@ -12,5 +12,7 @@ The following figure summarizes the idea, notice the reduction in tunneable para
 
 ![](.gitbook/assets/screenshot-2021-07-10-at-14.38.41.png)
 
+And the following graph shows the performance of this new technique, using T5.  
 
+![](.gitbook/assets/screenshot-2021-07-10-at-14.42.27.png)
 
