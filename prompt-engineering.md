@@ -8,5 +8,9 @@ There are several ways to adapt the behaviour of large-scale language models to 
 
 By using an autorregresive model as a classifier, we model the problem as $$P_\theta(Y|X)$$, in which $$X$$is the text sequence to be classified, $$Y$$, the token referring to its classification, and $$\theta$$the weights of the model. Whereas prompt design involves in optimizing a discrete prefix of words $$P$$in the likelihood $$P_\theta(Y|[P; X])$$, prompt tuning introduces a complementary set of weights $$\theta_P$$, of much lower cardinality than the model's, and optimizing $$P_{\theta, \theta_P}(Y|[P; X])$$while keeping the prefix $$P$$ fixed.
 
+The following figure summarizes the idea, notice the reduction in tunneable parameters and that we can simultaneously optimize for multiple tasks.  
+
+![](.gitbook/assets/screenshot-2021-07-10-at-14.38.41.png)
+
 
 
