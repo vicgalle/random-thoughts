@@ -1,3 +1,9 @@
+---
+description: >-
+  Related to data parallelism, model parallelism, pipeline parallelism and their
+  variants
+---
+
 # Resources for large scale models
 
 {% embed url="https://huggingface.co/transformers/master/parallelism.html" %}
